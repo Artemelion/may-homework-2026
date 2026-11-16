@@ -1,0 +1,98 @@
+.card {
+  max-width: 820px;
+  margin: 30px auto;
+  padding: 25px 40px;
+  background: white;
+}
+
+.counter {
+  float: right;
+  border: 1px solid #3fae8f;
+  padding: 3px 10px;
+  color: #333;
+}
+
+.block {
+  border: 2px solid #d32f2f;
+  padding: 8px 12px;
+  margin: 14px 0;
+  width: fit-content;
+  min-width: 420px;
+}
+
+.option {
+  margin: 6px 0;
+}
+
+.option.correct {
+  background: #d7f5e6;
+}
+
+.letter {
+  display: inline-block;
+  width: 22px;
+  text-align: center;
+  background: #eee;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.grid {
+  display: flex;
+  gap: 8px;
+}
+
+.grid label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+
+.grid input {
+  width: 22px;
+  height: 22px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.buttons div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  width: 140px;
+  padding: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.green {
+  background: #3fae8f;
+}
+
+.gray {
+  background: #d6d6d6;
+  color: #333;
+}
+
+.red {
+  background: #d32f3f;
+}
+
+.result {
+  font-weight: bold;
+}
+
+.explanation {
+  margin-top: 20px;
+  padding: 12px;
+  background: #fff8e1;
+}
