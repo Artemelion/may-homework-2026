@@ -1,0 +1,26 @@
+.page {
+  min-height: 100vh;
+  padding: 10px 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.light {
+  background: #fbfbf5;
+  color: #111;
+}
+
+.dark {
+  background: #1f1f1f;
+  color: #eee;
+}
+
+.switcher {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+button {
+  padding: 4px 12px;
+  cursor: pointer;
+}
