@@ -1,0 +1,77 @@
+.site {
+  max-width: 1150px;
+  margin: 0 auto;
+  background: #fafafa;
+  min-height: 100vh;
+}
+
+header {
+  padding: 15px 60px 0;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.subtitle {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.top-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-menu a {
+  padding: 10px 28px;
+  border: 1px solid #ddd;
+  background: #f1f1f1;
+  color: #333;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.top-menu a.active {
+  background: #333;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+}
+
+aside {
+  width: 180px;
+  padding: 15px 10px;
+  border-right: 1px solid #ddd;
+  flex-shrink: 0;
+}
+
+.chapter-link {
+  display: block;
+  margin-bottom: 12px;
+  color: #222;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.chapter-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main {
+  padding: 15px 30px;
+}
+
+.updated {
+  color: #999;
+  font-size: 12px;
+}
+
+.chapter a {
+  color: #1a0dab;
+}
