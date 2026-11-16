@@ -1,0 +1,25 @@
+.page {
+  min-height: 100vh;
+  padding: 10px 20px;
+}
+
+.page.light {
+  background: #ffffff;
+  color: #000;
+}
+
+.page.dark {
+  background: #222;
+  color: #f0f0f0;
+}
+
+button {
+  min-width: 26px;
+  cursor: pointer;
+}
+
+button.dark {
+  background: #555;
+  color: white;
+  border: 1px solid #777;
+}
