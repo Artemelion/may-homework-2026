@@ -1,0 +1,14 @@
+{
+  "name": "may-homework-2026",
+  "private": true,
+  "workspaces": [
+    "2026-05-08-football-club",
+    "2026-05-13-hooks-theme",
+    "2026-05-14-context-theme",
+    "2026-05-18-routing-metanit",
+    "2026-05-19-ikea-login",
+    "2026-05-20-refs-test",
+    "2026-05-21-nextjs-app",
+    "2026-05-25-tailwind-cards"
+  ]
+}
